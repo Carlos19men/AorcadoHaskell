@@ -8,7 +8,7 @@ import Data.Char (toLower)
 itsConvertibleChar :: String -> Bool
 itsConvertibleChar str = (length str == 1)
 
---
+--función  para convertir el caracter en un Char
 stringToChar :: String -> Char
 stringToChar [str] = str
 
@@ -18,7 +18,6 @@ validate chr = elem (toLower (stringToChar chr)) "abcdefghijklmnopqrstuvwxyz"
 
     
 --función de petición de caracter 
-
 getInput :: IO()
 getInput = do   
     putStrLn "Ingresar un caracter (uno solo):"
