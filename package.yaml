@@ -1,0 +1,26 @@
+name: ahorcado
+version: 0.1.0.0
+description: Juego del Ahorcado en Haskell
+dependencies:
+  - base >= 4.7 && < 5
+  - random
+  - directory >= 1.3.8.5
+  - temporary
+
+# Agregar configuración de instalación local
+install-dirs:
+  prefix: .stack-work/install
+
+library:
+  source-dirs: .
+  exposed-modules:
+    - Source.DisguiseWord
+    - Source.ValidateInput
+    - Source.Menu
+    - Source.WrongLetters
+    - Source.Amttemps
+    - Source.Estadisticas
+executables:
+  ahorcado-exe:
+    main: main.hs
+    source-dirs: . 

@@ -1,0 +1,50 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           ahorcado
+version:        0.1.0.0
+description:    Juego del Ahorcado en Haskell
+build-type:     Simple
+
+library
+  exposed-modules:
+      Source.DisguiseWord
+      Source.ValidateInput
+      Source.Menu
+      Source.WrongLetters
+      Source.Amttemps
+      Source.Estadisticas
+  other-modules:
+      Source.CargarPalabras
+      Paths_ahorcado
+  hs-source-dirs:
+      ./
+  build-depends:
+      base >=4.7 && <5
+    , directory >=1.3.8.5
+    , random
+    , temporary
+  default-language: Haskell2010
+
+executable ahorcado-exe
+  main-is: main.hs
+  other-modules:
+      Source.Amttemps
+      Source.CargarPalabras
+      Source.DisguiseWord
+      Source.Estadisticas
+      Source.Menu
+      Source.ValidateInput
+      Source.WrongLetters
+      Paths_ahorcado
+  hs-source-dirs:
+      ./
+  build-depends:
+      base >=4.7 && <5
+    , directory >=1.3.8.5
+    , random
+    , temporary
+  default-language: Haskell2010
