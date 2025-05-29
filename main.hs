@@ -9,6 +9,5 @@ import Source.ValidateInput
 
 main :: IO()
 main = do
-    print( validateInput 'a') -- True
-    print( validateInput '1') -- False
-    print( validateInput '4')
+    --función para obtener un solo caracter 
+    getInput
