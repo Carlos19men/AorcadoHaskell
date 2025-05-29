@@ -1,10 +1,11 @@
 
 --module main 
-
 module Main where 
+
+import Source.DisguiseWord
 
 
 main :: IO()
 
 main = do
-    putStrLn "esto es esl main"
+    print( disguise "sdfsfd")
