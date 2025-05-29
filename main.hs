@@ -6,8 +6,9 @@ module Main where
 
 import Source.DisguiseWord
 import Source.ValidateInput
+import Source.Menu
 
 main :: IO()
 main = do
     --función para obtener un solo caracter 
-    getInput
+    menu
