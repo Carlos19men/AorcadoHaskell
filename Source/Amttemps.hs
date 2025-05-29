@@ -1,4 +1,5 @@
 --modulo de intentos 
+module Source.Amttemps(amttemps) where
 
 amttemps :: Int -> String -> IO()
 amttemps ntry word = do
@@ -23,9 +24,4 @@ amttemps ntry word = do
         else do
             putStrLn("se te acabaron los intentos")
     
-
-main :: IO()
-main = do
-    amttemps 6 "hola"
-
 
