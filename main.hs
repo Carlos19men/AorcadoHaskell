@@ -7,8 +7,10 @@ module Main where
 import Source.DisguiseWord
 import Source.ValidateInput
 import Source.Menu
+import Source.WrongLetters
 
 main :: IO()
 main = do
     --función para obtener un solo caracter 
-    menu
+    print(wrongLetters "sadfasdf")
+    
