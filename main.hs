@@ -8,6 +8,7 @@ import Source.DisguiseWord
 import Source.ValidateInput
 import Source.Menu
 import Source.WrongLetters
+import Source.Amttemps
 
 main :: IO()
 main = do
