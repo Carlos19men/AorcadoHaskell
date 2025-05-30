@@ -1,1 +1,1 @@
-Estadisticas {partidasGanadas = 1, partidasPerdidas = 1, partidasAbandonadas = 3}
+Estadisticas {jugadores = [EstadisticasJugador {nombre = "samuel", partidasGanadas = 3, partidasPerdidas = 0, partidasAbandonadas = 2},EstadisticasJugador {nombre = "maria", partidasGanadas = 0, partidasPerdidas = 0, partidasAbandonadas = 1},EstadisticasJugador {nombre = "carlos", partidasGanadas = 0, partidasPerdidas = 0, partidasAbandonadas = 0}]}
